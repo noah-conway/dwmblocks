@@ -7,9 +7,9 @@ static const Block blocks[] = {
 	{"󱡠  ", "statusbar-mem",				    	10,		 11},
 	{";", "",	0,		0},
   {"󰣇 ", "statusbar-updates",           3600,  12},
-  {"",   "statusbar-netcon",            10,    13},
+  {"",   "statusbar-netcon",            10,    15},
 //	{"Mem:", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	30,		0},
-	{"",   "statusbar-clock",				    	0,		 14},
+	{"",   "statusbar-clock",				    	60,		 16},
   {" ", "", 0, 0},
 
 };
