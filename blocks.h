@@ -3,14 +3,14 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	//{"", "date '+%A, %B %d'",				86400,  		0},
 //	{" ", "/home/noah/.config/dwmblocks/scripts/cpu.sh",				    	10,		0},
-	{"", "/home/noah/.config/dwmblocks/scripts/cpu-temp.sh",				    	10,		0},
-	{"󱡠  ", "/home/noah/.config/dwmblocks/scripts/mem.sh",				    	10,		0},
+	{" ", "statusbar-cpu-temp",				    10,		 10},
+	{"󱡠  ", "statusbar-mem",				    	10,		 11},
 	{";", "",	0,		0},
-  {"", "/home/noah/.config/dwmblocks/scripts/updates.sh", 3600, 55},
-  {"", "/home/noah/.config/dwmblocks/scripts/netcon.sh",  10, 0},
+  {"󰣇 ", "statusbar-updates",           3600,  12},
+  {"",   "statusbar-netcon",            10,    13},
 //	{"Mem:", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	30,		0},
-	{"", "/home/noah/.config/dwmblocks/scripts/clock.sh",				    	60,		0},
-  {"  ", "", 0, 0},
+	{"",   "statusbar-clock",				    	0,		 14},
+  {" ", "", 0, 0},
 
 };
 
